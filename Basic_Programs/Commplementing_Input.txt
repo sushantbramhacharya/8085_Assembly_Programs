@@ -1,0 +1,5 @@
+//Complementing Input
+2000 MVI A 12
+2002 CMA
+2003 STA 2008
+2006 HLT
