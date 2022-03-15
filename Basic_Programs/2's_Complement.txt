@@ -1,0 +1,6 @@
+//2's Complementing Input
+2000 MVI A 12
+2002 CMA
+2003 ADI 01
+2005 STA 2009
+2008 HLT
