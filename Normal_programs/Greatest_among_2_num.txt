@@ -1,0 +1,8 @@
+2000 LDA 2031
+2003 MOV B,A
+2004 LDA 2032
+2007 CMP B
+2008 JNC 200C//when no carry a is greater
+200B MOV A,B//when carry b is greater
+200C STA 2055
+200F HLT
